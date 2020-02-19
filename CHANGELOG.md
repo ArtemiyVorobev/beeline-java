@@ -1,5 +1,11 @@
 # Beeline Changelog
 
+## 1.1.0
+
+Improvements:
+
+- Made it easier to work with multiple `io.honeycomb.beeline.tracing.Tracer` instances in the same service. Added `io.honeycomb.io.beeline.tracing.context.ThreadLocalTracingContext` which uses a non-static ThreadLocal to store the current tracing stack.
+
 ## 1.0.8
 
 Improvements:
